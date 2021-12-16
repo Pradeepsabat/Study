@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Baseclass {
 	
 	public static WebDriver driver = null;
-	//static String URL = "https://demoqa.com/";
+	static String URL = "https://demoqa.com/";
 	static String URL1= "https://parabank.parasoft.com/";
 	
 	static JavascriptExecutor js; 
@@ -63,6 +63,10 @@ public class Baseclass {
 	}
 	
 	public static void maximize(){
+		driver.manage().window().maximize();
+	}
+	
+	public static void enlargingscreen(){
 		driver.manage().window().maximize();
 	}
 	
