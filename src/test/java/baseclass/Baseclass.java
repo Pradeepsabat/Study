@@ -16,6 +16,7 @@ public class Baseclass {
 	
 	static JavascriptExecutor js; 
 	String x = "";
+	String y = "sabat";
 	
 	public static void main(String[] args) {
 		
