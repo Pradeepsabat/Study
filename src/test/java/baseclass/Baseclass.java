@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Baseclass {
 	
 	public static WebDriver driver = null;
-	static String URL = "https://demoqa.com/";
+	//static String URL = "https://demoqa.com/";
 	static String URL1= "https://parabank.parasoft.com/";
 	
 	static JavascriptExecutor js; 
