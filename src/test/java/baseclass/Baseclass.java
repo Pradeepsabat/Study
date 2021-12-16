@@ -15,6 +15,7 @@ public class Baseclass {
 	static String URL1= "https://parabank.parasoft.com/";
 	
 	static JavascriptExecutor js; 
+	String x = "";
 	
 	public static void main(String[] args) {
 		
